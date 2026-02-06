@@ -1,0 +1,30 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Logs
+*.log
+
+# Temporary
+*.tmp
+*.swp
+
+# Large binary artifacts (do not commit large evidence files here)
+*.zip
+*.tar.gz
+*.7z
+
+# Other
+.env
