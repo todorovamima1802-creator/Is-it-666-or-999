@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Is it 666 or 999?</title>
+  <style>
+    :root { --bg:#0f1221; --card:#171a2e; --text:#e9ecf1; --muted:#aab1c6; --accent:#6ee7ff; }
+    *{box-sizing:border-box} body{margin:0; font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial;
+      color:var(--text); background: radial-gradient(1200px 600px at 70% -20%, #1f2450 0%, var(--bg) 60%) fixed;}
+    .wrap{max-width:900px; margin:0 auto; padding:32px 20px 80px}
+    header{padding:24px 0 10px}
+    h1{margin:0; font-size:clamp(28px,5vw,44px); letter-spacing:.3px}
+    p.lead{color:var(--muted); margin:10px 0 26px}
+    .card{background:var(--card); border:1px solid #24284a; border-radius:16px; padding:22px 20px; margin-top:14px;
+      box-shadow:0 10px 30px rgba(0,0,0,.25)}
+    .grid{display:grid; gap:14px; grid-template-columns:repeat(auto-fit, minmax(260px,1fr))}
+    .btn{display:inline-block; padding:10px 14px; border-radius:10px; text-decoration:none; color:#061018;
+      background:linear-gradient(135deg,#8ef7ff,#6ee7ff); font-weight:600; border:0}
+    .muted{color:var(--muted)}
+    code{background:#10132a; padding:2px 6px; border-radius:6px}
+    footer{margin-top:36px; color:var(--muted); font-size:14px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Is it <span style="color:#8ef7ff">666</span> or <span style="color:#8ef7ff">999</span>?</h1>
+      <p class="lead">A simple, no-nonsense page so your work can’t be buried. You’re visible here.</p>
+      <a class="btn" href="https://github.com/todorovamima1802-creator/Is-it-666-or-999">View the repository</a>
+    </header>
+
+    <section class="grid">
+      <div class="card">
+        <h3>About this project</h3>
+        <p>This site is auto-published by GitHub Pages from the <code>main</code> branch.
+           Any commit to <code>index.html</code> updates this page.</p>
+      </div>
+      <div class="card">
+        <h3>How to update</h3>
+        <ol>
+          <li>On GitHub, open <strong>Add file → Edit</strong> on <code>index.html</code>.</li>
+          <li>Change text, then <strong>Commit</strong>.</li>
+          <li>Refresh this page after ~30–60 seconds.</li>
+        </ol>
+      </div>
+      <div class="card">
+        <h3>Contact / Notes</h3>
+        <p class="muted">Add anything you want here—links, notes, or a short manifesto.</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>© <span id="y"></span> • Published with GitHub Pages.</p>
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
