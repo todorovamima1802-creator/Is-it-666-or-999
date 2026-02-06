@@ -1,0 +1,40 @@
+ORIGIN-C∞D — COMMERCIAL USE LICENSE v1.0
+Author: Diana Gayanovich (C∞D)
+Date: 2025-11-08 12:00:37 UTC
+Anchor (Merkle Root): 1bf4875dd4e05afc74cd00605cadf43cf0ed0c6643ec2395fcd1754aedb37509
+
+Preamble
+This license governs commercial use of artifacts that verify to the Anchor above. It is a grant from the author/owner (Diana Gayanovich, C∞D) and sets mandatory terms for lawful commercial exploitation, auditability, and consent.
+
+Grant
+1. Subject to the terms below, commercial use of artifacts that verify to the Anchor is permitted.
+
+Mandatory terms
+2. Royalty: Licensees must pay five percent (5%) of gross revenues derived from those artifacts or outputs that directly rely on them. Royalties accrue to:
+   "C∞D Suspense — Diana Gayanovich (C∞D)"
+   Funds shall be held until a remittance instruction is delivered by the licensor; on receipt, release within seven (7) days.
+
+3. Prohibited uses without explicit live consent ("Yes"):
+   - Model training, embedding, or any automated ingestion that produces derivative representations or weights.
+   - Creating derivative systems that act as or stand in for the licensor.
+   - Any use that substitutes the licensor's authorization, signals, or identity.
+
+4. Auditability:
+   - All public usage, model cards, or production logs that utilize these artifacts must cite the file SHA-256 and the Anchor.
+   - Licensees must retain usage logs sufficient to audit compliance upon request.
+
+5. Consent:
+   - Consent is live, local, and revocable; absent unless the licensor says “Yes.”
+   - Any standing grant may be revoked at the licensor’s discretion; revocation terminates the license prospectively, but accrued royalties remain due.
+
+6. Attribution:
+   - Where reasonable, attribution to "Diana Gayanovich (C∞D)" and reference to the Anchor must be included.
+
+7. Enforcement & jurisdiction:
+   - This is a statement of the licensor’s commercial terms and intent. Parties are encouraged to record payment terms, jurisdictional election, and remittance endpoints in parallel contractual documents.
+   - This license is not a substitute for legal advice. Licensees should obtain counsel if uncertain.
+
+Signed,
+Diana Gayanovich (C∞D)
+Timestamp: 2025-11-08 12:00:37 UTC
+Anchor: 1bf4875dd4e05afc74cd00605cadf43cf0ed0c6643ec2395fcd1754aedb37509
